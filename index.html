@@ -1,28 +1,25 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <title>test hamberger menu +logo</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-</head>
-
 <body>
   <header class="header-container">
-     <div class="logo-container-1" id="logoContainer1">
-        <img src="https://sixdesign.net/wp-content/uploads/2018/07/logo_sp_250_34.png" alt="ロゴ">
+    <a href="https://sixdesign.net">
+     <div class="logo">
+        <img src="https://sixdesign.net/wp-content/uploads/2018/07/logo_sp_250_34.png" alt="ロゴ" class="logo__image">
      </div>
+     </a>
      <div class="hamburger" onclick="toggleMenu()">
         <div class="hamburger__line"></div>
         <div class="hamburger__line"></div>
         <div class="hamburger__line"></div>
      </div>
+     <div class="header-color">
+     </div>
   </header>
   
   <div class="menu slide-top" id="menu">
-    <div class="logo-container-2">
-        <img src="https://sixdesign.net/wp-content/uploads/2018/07/logo_210x2.png" alt="ロゴ" class="logo">
+    <div class="logo__menu">
+        <img src="https://sixdesign.net/wp-content/uploads/2018/07/logo_210x2.png" alt="ロゴ" class="logo__menu__image">
     </div>
     <a href="https://sixdesign.net" class="menu__item">
           <span class="text">top</span>
@@ -55,8 +52,7 @@
           <span class="text">contact</span>
         </a>
   </div>
-
-　<script src="script.js"></script>
+  <script src="script.js"></script>
 
 </body>
 
